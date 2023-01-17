@@ -1,6 +1,6 @@
 # README
 
-This program generates a set of images that depict the Julia set, and then uses FFmpeg to convert them into a video.
+This program generates a set of images that depict the Julia set, and then uses FFmpeg to convert them into a video. This program was optimized using OpenMP and compiler optimizations to dramatically increase the computation rate by an order of magnitude. Customized Julia sets can be computed by inputting a single variable function and it's derivative, as well as a range for the variable `scale` to iterate over.
 
 ## Requirements
 - CImg library
